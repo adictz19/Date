@@ -3,7 +3,7 @@
 <head>
 <style>
 .button {
-position: center;
+position: absolute;
   border: none;
   color: white;
   padding: 18px 35px;
@@ -17,9 +17,10 @@ position: center;
 }
 
 #button1 {
+	position: absolute;
   background-color: white; 
   color: black; 
-  border: 2px solid #4CAF50;
+  border: 4px solid #4CAF50;
 }
 
 #button1:hover {
@@ -31,7 +32,7 @@ position: center;
 position: absolute;
   background-color: white; 
   color: black; 
-  border: 2px solid #008CBA;
+  border: 4px solid #008CBA;
 }
 
 #button2:hover {
@@ -39,10 +40,25 @@ position: absolute;
   color: white;
 }
 
+#button3 {
+
+  padding: 18px 13px;
+font-size: 18px;
+position: absolute;
+  background-color: white; 
+  color: black; 
+  border: 4px solid #4CAF50;
+}
+
+#button3:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
 .center{
 	align-items: center;
 	width: 100%;
-	height: 250px;
+	height: 90px;
 }
 
 .grid{
@@ -50,28 +66,35 @@ position: absolute;
 	place-items:center;
 	text-align: center;
 	vertical-align: middle;
+	horizontal-align: middle;
 }
 
 </style>
 
 </head>
 <body>
-  <title>To: Regine</title>
+  <title>To:</title>
 	
   <div class="grid">
       <div class="center">
         <h1>Do you wanna date, this February 14?</h1>
       </div>
-      
+      	
+	<div class="center">
+          <button id="button3"><b>WHAT IF?</b></button>
+        </div>
+
         <div class="center">
-          <button class="button" id="button1">YES</button>
+          <button class="button" id="button1"><b>YES</b></button>
         </div>
         
-        <div class="center">
-          <button class="button" id="button2">NO!</button>
-      </div>
+        <div>
+          <button class="button" id="button2"><b>NO!</b></button>
+        </div>
       
   </div>
+
+	
 	
 
 <script>       
