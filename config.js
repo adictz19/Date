@@ -1,7 +1,7 @@
 
 const CONFIG = {
     titleWeb: "DATE TA SA FEB. 14",
-    introTitle: 'HELLO BEAUTIFULBEAUTIFUL',
+    introTitle: 'HELLO BEAUTIFUL',
     introDesc: `ARE YOU FREE THIS COMING FEBRUARY 14? HAHA
     DO YOU WANNA GO OUT FOR A DATE?
     
@@ -13,8 +13,8 @@ const CONFIG = {
     btnNo: 'NO!',
     question: 'ARE YOU SINGLE?',
     btnReply: 'YES I AM SINGLE',
-    reply: 'LAON',
-    mess: 'Book your appointment now! Hahaha',
+    reply: 'LAON KA NA LANG. HAHAHA',
+    mess: 'Book our date now! Hahaha',
     messDesc: 'Proceed and chat me na!',
     btnAccept: 'Chat Me! Haha',
     messLink: 'https://www.facebook.com/geeerald.6991' 
