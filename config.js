@@ -11,7 +11,7 @@ const CONFIG = {
     desc: 'WILLING TO TAKE ME ON A DATE? ',
     btnYes: 'YES <3',
     btnNo: 'NO!',
-    question: 'YOU SURE YOU ARE SINGLE?',
+    question: 'ARE YOU SINGLE?',
     btnReply: 'YES I AM SINGLE',
     reply: 'LAON',
     mess: 'Book your appointment now! Hahaha',
