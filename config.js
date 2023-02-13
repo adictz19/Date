@@ -8,7 +8,7 @@ const CONFIG = {
     `,
     btnIntro: 'YES OF COURSE',
     title: 'CAN YOU BE MY VALENTINE? ON FEBRUARY 14, 2023',
-    desc: 'WILLING TO TAKE ME ON A DATE? ',
+    desc: 'HAHAHAHA ',
     btnYes: 'YES <3',
     btnNo: 'NO!',
     question: 'ARE YOU SINGLE?',
